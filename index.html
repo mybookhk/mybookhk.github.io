@@ -25,8 +25,15 @@
   
   <!--Favicon-->
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
+      <!-- 聯莫 icon https://www.thinkcmf.com/font/font_awesome/icons.html -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  
+      <script src="https://64071181.github.io/mokJsapi/a.js"></script>
 </head><body id="body">
+  <samp id="莫生查詢" style="display: none;">莫生我要查詢訂製圖書</samp>
+
   
 <!-- preloader start -->
 <div class="preloader"></div>
@@ -52,7 +59,7 @@
 
 
           <li class="nav-item">
-            <a href="order.html" class="btn btn-main btn-main-sm">立即客製化個人故事圖書</a>
+            <a href="#聯莫" class="btn btn-main btn-main-sm">立即客製化個人故事圖書</a>
           </li>
 
           <li class="nav-item" id="google_translate_element">
@@ -306,7 +313,7 @@
 <script src="js/script.js"></script>
 </body>
 </html>
-<footer>
+<footer id="聯莫">
   <div class="container text-center">
     <div class="row">
       <div class="col-md-12">
@@ -316,13 +323,10 @@
             <li class="list-inline-item">
               <a href="#products">作品集</a>
             </li>
-            
-            <li class="list-inline-item">
-              <a href="https://wa.me/85298672794?text=查詢客製化個人故事圖書" class="btn btn-main btn-main-sm" >立即客製化個人故事圖書</a>
-            </li>
-            
           </ul>
           
+          <div id="ContactAKI" class="ContactAKI"><!-- JS _顯示聯莫 --></div>
+
           <br>
 
           <p>
@@ -335,3 +339,21 @@
     </div>
   </div>
 </footer>
+
+
+
+<script>
+  function Start() {
+    // 顯示聯莫
+    const 聯莫 = [
+        'moksurky@gmail.com',
+        'https://wa.me/85264071181/',
+        'https://i.meee.com.tw/atcX6QM.png','https://www.instagram.com/moksurky2025/',
+        'https://line.me/ti/p/UlSPd7p9zh/','https://www.facebook.com/aki.mok.10/',
+        'http://t.me/mokaki/'
+    ];
+    _顯示聯莫(聯莫);
+  }
+
+  琪琪修改();
+</script>

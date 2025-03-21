@@ -311,7 +311,7 @@ $("#訂購").click(function() {
         總金額3+'//'
 
     // SendWsToAki
-    let ws訂購ToAki = 'https://wa.me/85298672794?text=' + 訂allData
+    let ws訂購ToAki = 'https://wa.me/85264071181?text=' + 訂allData
     window.open(ws訂購ToAki, '_blank').focus()
 
 })
